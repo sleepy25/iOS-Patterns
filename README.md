@@ -8,7 +8,7 @@ Its a wrapper around class giving it a new interface.
 
 #### When use it ?
 
-+  Convert the interface of a class into another interface that clients expect without modifying their source code.
++  Converting interface of a class into another interface that clients expect without modifying their source code.
 
 > You have to change the library in the project. Moving from google maps to apple maps.
 
@@ -46,3 +46,15 @@ dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 10 * NSEC_PER_SEC), dispatch_get
 <http://www.oodesign.com/adapter-pattern.html>
 
 <https://en.wikipedia.org/wiki/Adapter_pattern>
+
+## Decorator
+
+#### What is it ?
+
+
+#### When use it ?
+
+```objc
+[Timer new];
+```
+#### More info :
